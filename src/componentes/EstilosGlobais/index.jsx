@@ -13,8 +13,8 @@ const EstilosGlobais = createGlobalStyle`
   src: local('Gandhi Sans Bold'), local('GandhiSansBold'), url(${GandhiSansBold});
 }
 html {
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
+  line-height: 1.15; 
+  -webkit-text-size-adjust: 100%; 
   font-family: GandhiSansRegular;
 }
 body {
@@ -29,17 +29,17 @@ h1 {
   margin: 0.67em 0;
 }
 hr {
-  box-sizing: content-box;
-  height: 0;
-  overflow: visible;
+  box-sizing: content-box; 
+  height: 0; 
+  overflow: visible; 
 }
 a {
   background-color: transparent;
 }
 abbr[title] {
-  border-bottom: none;
-  text-decoration: underline;
-  text-decoration: underline dotted;
+  border-bottom: none; 
+  text-decoration: underline; 
+  text-decoration: underline dotted; 
 }
 b,
 strong {
@@ -48,8 +48,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
+  font-family: monospace, monospace; 
+  font-size: 1em; 
 }
 small {
   font-size: 80%;
@@ -75,17 +75,17 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
+  font-family: inherit; 
+  font-size: 100%; 
+  line-height: 1.15; 
+  margin: 0; 
 }
 button,
-input {
+input { 
   overflow: visible;
 }
 button,
-select {
+select { 
   text-transform: none;
 }
 button,
@@ -111,12 +111,12 @@ fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
 legend {
-  box-sizing: border-box;
-  color: inherit;
-  display: table;
-  max-width: 100%;
-  padding: 0;
-  white-space: normal;
+  box-sizing: border-box; 
+  color: inherit; 
+  display: table; 
+  max-width: 100%; 
+  padding: 0; 
+  white-space: normal; 
 }
 progress {
   vertical-align: baseline;
@@ -126,23 +126,23 @@ textarea {
 }
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box;
-  padding: 0;
+  box-sizing: border-box; 
+  padding: 0; 
 }
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 [type="search"] {
-  -webkit-appearance: textfield;
-  outline-offset: -2px;
+  -webkit-appearance: textfield; 
+  outline-offset: -2px; 
 }
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  font: inherit;
+  -webkit-appearance: button; 
+  font: inherit; 
 }
 details {
   display: block;
